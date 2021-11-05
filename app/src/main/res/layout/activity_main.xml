@@ -10,7 +10,7 @@
 
     <TextView
         android:layout_width="113dp"
-        android:layout_height="41dp"
+        android:layout_height="25dp"
         android:text="Nama"/>
 
     <EditText
@@ -20,7 +20,7 @@
         android:hint="Isi Nama Lengkap Anda" />
     <TextView
         android:layout_width="113dp"
-        android:layout_height="41dp"
+        android:layout_height="25dp"
         android:text="Email"/>
 
     <EditText
@@ -31,7 +31,7 @@
         android:inputType="textEmailAddress" />
     <TextView
         android:layout_width="113dp"
-        android:layout_height="41dp"
+        android:layout_height="25dp"
         android:text="Handphone"/>
 
     <EditText
@@ -42,27 +42,27 @@
         android:inputType="phone" />
     <TextView
         android:layout_width="113dp"
-        android:layout_height="41dp"
+        android:layout_height="25dp"
         android:text="Tanggal Lahir"/>
 
     <EditText
+        android:id="@+id/tglEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir (DD/MM/YYYY)"
-        android:inputType="date"
-        />
+        android:inputType="date" />
 
     <TextView
         android:layout_width="166dp"
-        android:layout_height="41dp"
+        android:layout_height="25dp"
         android:text="Jumlah Mata Kuliah" />
 
     <EditText
+        android:id="@+id/matkulEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Jumlah"
-        android:inputType="number"
-        />
+        android:hint="Isi Jumlah Mata Kuliah"
+        android:inputType="number" />
 
 
 

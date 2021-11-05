@@ -17,10 +17,16 @@ class MainActivity : AppCompatActivity() {
 
         val namaEditText = findViewById<EditText>(R.id.namaEditText)
         val emailEditText = findViewById<EditText>(R.id.emailEditText)
+        val telpEditText = findViewById<EditText>(R.id.telpEditText)
+        val tglEditText = findViewById<EditText>(R.id.tglEditText)
+        val matkulEditText = findViewById<EditText>(R.id.matkulEditText)
 
         simpanButton.setOnClickListener{
             namaEditText.setText("")
             emailEditText.setText("")
+            telpEditText.setText("")
+            tglEditText.setText("")
+            matkulEditText.setText("")
             Toast.makeText(this, "Berhasil Simpan", Toast.LENGTH_LONG).show()
         }
 
