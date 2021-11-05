@@ -80,6 +80,7 @@
         tools:layout_editor_absoluteY="412dp"
         android:backgroundTint="@color/success"
         android:layout_marginEnd="8dp"
+        android:drawableLeft="@drawable/ic_baseline_save_24"
         />
     <Button
         android:layout_width="wrap_content"
@@ -88,6 +89,7 @@
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="412dp"
         android:backgroundTint="@color/danger"
+        android:drawableLeft="@drawable/ic_baseline_cancel_24"
         />
     </LinearLayout>
 </LinearLayout>
