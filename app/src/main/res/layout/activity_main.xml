@@ -63,13 +63,28 @@
         android:inputType="number"
         />
 
-    <Button
-        android:id="@+id/button"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:orientation="horizontal"
+>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="412dp" />
-
-
+        tools:layout_editor_absoluteY="412dp"
+        android:backgroundTint="@color/success"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batal"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="412dp"
+        android:backgroundTint="@color/danger"
+        />
+    </LinearLayout>
 </LinearLayout>
