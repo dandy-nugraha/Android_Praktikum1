@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="8dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -69,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="end"
 >
     <Button
         android:layout_width="wrap_content"
@@ -77,6 +79,7 @@
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="412dp"
         android:backgroundTint="@color/success"
+        android:layout_marginEnd="8dp"
         />
     <Button
         android:layout_width="wrap_content"
