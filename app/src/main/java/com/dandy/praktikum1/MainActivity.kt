@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         simpanButton.setOnClickListener{
             namaEditText.setText("")
             emailEditText.setText("")
+            Toast.makeText(this, "Berhasil Simpan", Toast.LENGTH_LONG).show()
         }
 
         batalButton.setOnClickListener{
