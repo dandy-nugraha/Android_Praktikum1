@@ -14,32 +14,32 @@
         android:text="Nama"/>
 
     <EditText
+        android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Isi Nama Lengkap Anda"
-        />
+        android:hint="Isi Nama Lengkap Anda" />
     <TextView
         android:layout_width="113dp"
         android:layout_height="41dp"
         android:text="Email"/>
 
     <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Email"
-        android:inputType="textEmailAddress"
-        />
+        android:inputType="textEmailAddress" />
     <TextView
         android:layout_width="113dp"
         android:layout_height="41dp"
         android:text="Handphone"/>
 
     <EditText
+        android:id="@+id/telpEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Nomor Telepon"
-        android:inputType="phone"
-        />
+        android:inputType="phone" />
     <TextView
         android:layout_width="113dp"
         android:layout_height="41dp"
@@ -73,6 +73,7 @@
         android:gravity="end"
 >
     <Button
+        android:id="@+id/simpanButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Simpan"
@@ -83,6 +84,7 @@
         android:drawableLeft="@drawable/ic_baseline_save_24"
         />
     <Button
+        android:id="@+id/batalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Batal"
