@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Praktikum1">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+        <activity
             android:name=".HasilActivity"
             android:exported="true" />
         <activity
