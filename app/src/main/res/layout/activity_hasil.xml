@@ -7,7 +7,12 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".HasilActivity">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="end
+">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -89,8 +94,12 @@
         android:textSize="24sp"
         android:textColor="@color/teal_200"
         />
-
-
-
+<Button
+    android:id="@+id/buttonKembali"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/success"
+    android:text="Input Kembali"/>
+</LinearLayout>
 
 </LinearLayout>

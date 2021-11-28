@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="end"
+    tools:context=".LoginActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+    <EditText
+    android:id="@+id/usernameEdit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Input Username/Email"
+    android:inputType="textEmailAddress"
+    />
+    <EditText
+        android:id="@+id/PasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Password"
+        android:inputType="textPassword"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end">
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/success"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/ic_baseline_login_24"
+        android:text="Login"
+    />
+
+    <Button
+        android:id="@+id/buttonKeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/danger"
+        android:drawableLeft="@drawable/ic_baseline_cancel_24"
+        android:text="Keluar"
+        />
+       </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
